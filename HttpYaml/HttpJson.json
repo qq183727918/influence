@@ -1,0 +1,18 @@
+{
+  "test_1": {
+    "url": "https://gateway.dev.vevor.net/scp-procurement-service/controller-scpMoveAmountService/front/list",
+    "params": {
+      "currentPage": 1,
+      "pageSize": 10,
+      "moveNo": "YKD202011090003"
+    }
+  },
+  "test_2": {
+    "url": "https://gateway.dev.vevor.net/scp-procurement-service/controller-procurementPaymentOpsService/front/getList",
+    "params": {
+      "currentPage": 1,
+      "pageSize": 10,
+      "paymentOrderSn:": "YFK202011090080"
+    }
+  }
+}
