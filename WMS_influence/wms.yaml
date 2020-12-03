@@ -1,0 +1,27 @@
+- config:
+    name: WMS API
+    request:
+      base_url: http://47.116.74.54
+    hearders:
+      - Content-Type: application/json
+      - Authorization: Bearer 8e4c4314-dbc4-43a0-aed4-682370113211
+
+- test:
+    name: 入库单页面查询
+    request:
+      url: /api/wms-inbound-orders-service/controller-overseasInboundOrderItems/front/queryInboundOrderList
+      method: GET
+      params:
+        currentPage: 1
+        pageSize: 10
+        orderSn: 1
+        sourceSn: 1
+        createdTime: 2020-12-25+12:00:00
+        goodsSku: 1
+
+- test:
+    name: 点击签收
+    request:
+      url: /api/wms-inbound-orders-service/controller-overseasInboundSignOrderSign/front/sign?ids=19
+      method: PUT
+
