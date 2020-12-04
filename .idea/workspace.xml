@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd0ebd6-b90b-43c9-bf30-5e08e07acd31" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/debug/1213.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/gray-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/b1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/debug/verification_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/verification_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,6 +236,9 @@
       <module name="influence" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imageVerificationCode" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -253,20 +254,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="posddd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytesseract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="influence" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/pytesseract" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/posddd.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/pytesseract/pytesseract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,10 +329,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.verification_test" />
+        <item itemvalue="Python.pytesseract" />
         <item itemvalue="Python 测试.verification_code.py 中的 pytest" />
         <item itemvalue="Python 测试.verification_code.test 的 pytest" />
         <item itemvalue="Python.imageVerificationCode" />
-        <item itemvalue="Python.posddd" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +358,9 @@
       <workItem from="1606999165567" duration="153000" />
       <workItem from="1606999333767" duration="104000" />
       <workItem from="1607052829771" duration="7076000" />
-      <workItem from="1607070900316" duration="3473000" />
+      <workItem from="1607070900316" duration="3659000" />
+      <workItem from="1607074730019" duration="1698000" />
+      <workItem from="1607076983313" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="influence">
       <created>1606894256554</created>
@@ -390,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607073681630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Default Changelist">
+      <created>1607074539054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607074539054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -454,18 +461,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/influence$verification.coverage" NAME="verification Coverage Results" MODIFIED="1606908824154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
     <SUITE FILE_PATH="coverage/influence$caisj.coverage" NAME="caisj 覆盖结果" MODIFIED="1606999121284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reports" />
     <SUITE FILE_PATH="coverage/influence$verification_code_test__pytest.coverage" NAME="verification_code.test 的 pytest 覆盖结果" MODIFIED="1607071924818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification_code" />
-    <SUITE FILE_PATH="coverage/influence$token_test__1_.coverage" NAME="token_test (1) 覆盖结果" MODIFIED="1606979751192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
-    <SUITE FILE_PATH="coverage/influence$verification__2_.coverage" NAME="verification (2) 覆盖结果" MODIFIED="1606979645102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/influence$imageVerificationCode.coverage" NAME="imageVerificationCode 覆盖结果" MODIFIED="1607071304360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imageVerificationCode" />
-    <SUITE FILE_PATH="coverage/influence$verification__3_.coverage" NAME="verification (3) 覆盖结果" MODIFIED="1606979935212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
-    <SUITE FILE_PATH="coverage/influence$verification_test__1_.coverage" NAME="verification_test (1) 覆盖结果" MODIFIED="1606980087538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
+    <SUITE FILE_PATH="coverage/influence$verification_test.coverage" NAME="verification_test 覆盖结果" MODIFIED="1607078328342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/influence$verification_code_py__pytest.coverage" NAME="verification_code.py 中的 pytest 覆盖结果" MODIFIED="1607072243411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification_code" />
-    <SUITE FILE_PATH="coverage/influence$verificationCode.coverage" NAME="verificationCode Coverage Results" MODIFIED="1606902695145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
     <SUITE FILE_PATH="coverage/influence$verification__1_.coverage" NAME="verification (1) Coverage Results" MODIFIED="1606908919709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
     <SUITE FILE_PATH="coverage/influence$token_test.coverage" NAME="token_test Coverage Results" MODIFIED="1606908466405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
+    <SUITE FILE_PATH="coverage/influence$verification.coverage" NAME="verification Coverage Results" MODIFIED="1606908824154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
+    <SUITE FILE_PATH="coverage/influence$token_test__1_.coverage" NAME="token_test (1) 覆盖结果" MODIFIED="1606979751192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
+    <SUITE FILE_PATH="coverage/influence$verification__2_.coverage" NAME="verification (2) 覆盖结果" MODIFIED="1606979645102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
+    <SUITE FILE_PATH="coverage/influence$verification__3_.coverage" NAME="verification (3) 覆盖结果" MODIFIED="1606979935212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
+    <SUITE FILE_PATH="coverage/influence$verification_test__1_.coverage" NAME="verification_test (1) 覆盖结果" MODIFIED="1606980087538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verification" />
+    <SUITE FILE_PATH="coverage/influence$verificationCode.coverage" NAME="verificationCode Coverage Results" MODIFIED="1606902695145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Httpinfluence/HtmlTestRunner.py">
