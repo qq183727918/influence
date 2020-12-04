@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acd0ebd6-b90b-43c9-bf30-5e08e07acd31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/posddd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/sssss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/verification_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageVerificationCode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageVerificationCode/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageVerificationCode/imageVerificationCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageVerificationCode/pictures.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verification/__pycache__/token_test.cpython-38.pyc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verification_code/123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verification_code/verification_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verification_code/verification_test01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verification_code/verification_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/influence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/influence.iml" afterDir="false" />
+    <list default="true" id="acd0ebd6-b90b-43c9-bf30-5e08e07acd31" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/debug/1213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/gray-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/__pycache__/verification.cpython-38.pyc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/verification/verification_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verification/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verification/token_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/verification/token_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/verification_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/verification_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +360,7 @@
       <workItem from="1606999165567" duration="153000" />
       <workItem from="1606999333767" duration="104000" />
       <workItem from="1607052829771" duration="7076000" />
-      <workItem from="1607070900316" duration="2768000" />
+      <workItem from="1607070900316" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="influence">
       <created>1606894256554</created>
@@ -398,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606975985085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1607073681630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073681630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -458,7 +450,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="influence" />
-    <option name="LAST_COMMIT_MESSAGE" value="influence" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/influence$verification.coverage" NAME="verification Coverage Results" MODIFIED="1606908824154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/verificationCode" />
