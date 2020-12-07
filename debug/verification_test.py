@@ -20,7 +20,7 @@ def verification():
     #  二值化降噪的过程
     from PIL import Image, ImageEnhance, ImageFilter
 
-    im = Image.open('gray-1.png')
+    im = Image.open('../verification/gray-1.png')
     im = im.filter(ImageFilter.MedianFilter())
     enhancer = ImageEnhance.Contrast(im)
     im = enhancer.enhance(2)
@@ -29,11 +29,11 @@ def verification():
     im.save('./1213.png')
 
 
-# verification()
+verification()
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'D:\Tools\tesseract\Tesseract-OCR/tesseract.exe'
-image = Image.open("gray-1.png")
-code = pytesseract.image_to_string(image, lang="eng", config="-psm 7")
+# pytesseract.pytesseract.tesseract_cmd = r'D:\Tools\tesseract\Tesseract-OCR/tesseract.exe'
+image = Image.open("../verification/gray-1.png")
+code = pytesseract.image_to_string(image, None)
 print(code)

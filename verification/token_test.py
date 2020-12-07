@@ -20,3 +20,5 @@ class scp:
         access_token = re["access_token"]
         print(access_token)
 
+        return access_token
+
