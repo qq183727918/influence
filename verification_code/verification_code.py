@@ -22,7 +22,7 @@ def test(path):
 
 
 # for i in range(1, 13):
-#     path = str(i) + "./1.png"
+#     path = str(i) + "./13.png"
 #     im = test(path)
 #     path = path.replace('jpg', 'png')
 #     im.save(path)

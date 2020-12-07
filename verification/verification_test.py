@@ -18,7 +18,7 @@ print(f'a:{a}')
 
 request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate"
 # 二进制方式打开图片文件
-f = open('gray-1.png', 'rb')
+f = open('dir/1_new.png', 'rb')
 img = base64.b64encode(f.read())
 
 params = {"image":img}
@@ -27,6 +27,7 @@ request_url = request_url + "?access_token=" + access_token
 headers = {'content-type': 'application/x-www-form-urlencoded'}
 response = requests.post(request_url, data=params, headers=headers)
 if response:
+    print('TWZ73')
     print (response.json())
 
 
