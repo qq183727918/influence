@@ -18,7 +18,7 @@ print(f'a:{a}')
 
 request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate"
 # 二进制方式打开图片文件
-f = open('dir/1_new.png', 'rb')
+f = open('1.png', 'rb')
 img = base64.b64encode(f.read())
 
 params = {"image":img}
